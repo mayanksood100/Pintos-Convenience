@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #fd412d, #ee6f6f );
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #000000;
+    font-family: 'Playfair Display', serif;
+}
+
+#mainNavbar{
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 2.0rem;
+    font-family: 'Playfair Display', serif;
+}
+
+#mainNavbar .nav-link, .nav-item{
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0px 28px;
+    display: inline-block;
+    text-align: center;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #fd412d;
+}
+
+.logo{
+    color: #fff7fb;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links a{
+    color: #fff7fb;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    background-color: #fff7fb;
+    margin: 5px;
+    width: 25px;
+    height: 3px;
+}
+
+.jumbotron{
+    height: 325px;
+    background-color: black;
+    margin-top: 100px;
+}
+
+.display-4{
+    color: #fff;
+}
+
+.description, .lead {
+    color: #fff;
+}
+
+#storefront{
+    border: 3px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#storefront hover{
+    border: 3px solid #52A2FE; 
+}
+
+p{
+    color: #999999;
+    line-height: 25px;
+}
+
+h2, h3{
+    color: #fff;
+}
+
+h2{
+    font-size: 18px;
+}
+
+.footer-bottom{
+    background: #111111;
+    height: 215px;
+    padding: 10px 0px;
+}
+
+.segment-one h3{
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.segment-three p{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+#newP{
+    margin-top: 15px;
+    padding: auto;
+}
+
+.segment-two h2, .segment-three h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.segment-two h2:before, .segment-three h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-two a{
+    width: 40px;
+    background: #494848;
+    height: 40px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.segment-two a i{
+   font-size: 20px;
+   color: #fff;
+   padding: 10px 12px;
+}
+
+.container-fluid{
+    position: relative;
+    overflow: hidden;
+}
+
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover, #ten:hover, #eleven:hover, #twelve:hover, #thirteen:hover, #fourteen:hover, #fifteen:hover, #sixteen:hover, #seventeen:hover, #eighteen:hover, #nineteen:hover, #twenty:hover, #twentyone:hover, #twentytwo:hover, #twentythree:hover, #twentyfour:hover, #twentyfive:hover, #twentysix:hover, #twentyseven:hover, #twentyeight:hover, #twentynine:hover, #thirty:hover, #thirtyone:hover, #thirtytwo:hover, #thirtythree:hover, #thirtyfour:hover, #thirtyfive:hover, #thirtysix:hover  {
+    border: 2px solid rgb(17, 147, 223);
+    transform: scale(1.1);
+}
+
+.card{
+    background-color: #000;
+}
+
+.card-title{
+    color: #fff;
+}
+
+@media screen and (max-width: 875px) {
+
+    .jumbotron {
+      width: 100%;
+    }
+
+    .description{
+        display: none;
+    }
+
+    #storefront{
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-bottom{
+        height: 50%;
+    }
+
+    .segment-one, .segment-two{
+        margin-bottom: 25px;
+    }
+}
+
